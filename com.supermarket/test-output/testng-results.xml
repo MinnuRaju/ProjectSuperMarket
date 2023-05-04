@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T17:22:02 GST" name="Suite" finished-at="2022-11-15T17:22:35 GST" duration-ms="32651">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T17:22:02 GST" name="Test" finished-at="2022-11-15T17:22:35 GST" duration-ms="32651">
+      <class name="com.supermarket.tests.LoginTestCase">
+        <test-method is-config="true" signature="createReport(org.testng.ITestContext)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:02 GST" name="createReport" finished-at="2022-11-15T17:22:02 GST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7196a8f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:02 GST" name="beforeTest" finished-at="2022-11-15T17:22:02 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:02 GST" name="beforeClass" finished-at="2022-11-15T17:22:27 GST" duration-ms="24988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:28 GST" name="beforeMethod" finished-at="2022-11-15T17:22:28 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:28 GST" name="validateWithInvalidCredentials" data-provider="loginData" finished-at="2022-11-15T17:22:29 GST" duration-ms="1444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWithInvalidCredentials -->
+        <test-method signature="validateWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:29 GST" name="validateWithInvalidCredentials" data-provider="loginData" finished-at="2022-11-15T17:22:30 GST" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWithInvalidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:29 GST" name="afterMethod" finished-at="2022-11-15T17:22:29 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateWithInvalidCredentials status=SUCCESS method=LoginTestCase.validateWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:29 GST" name="beforeMethod" finished-at="2022-11-15T17:22:29 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:30 GST" name="afterMethod" finished-at="2022-11-15T17:22:30 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateWithInvalidCredentials status=SUCCESS method=LoginTestCase.validateWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="validateWithValidCredentials()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:30 GST" name="validateWithValidCredentials" description="validate the login page with valid credentails" finished-at="2022-11-15T17:22:35 GST" duration-ms="5285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWithValidCredentials -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:30 GST" name="beforeMethod" finished-at="2022-11-15T17:22:30 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:35 GST" name="afterTest" finished-at="2022-11-15T17:22:35 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:35 GST" name="afterMethod" finished-at="2022-11-15T17:22:35 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateWithValidCredentials status=SUCCESS method=LoginTestCase.validateWithValidCredentials()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:35 GST" name="afterClass" finished-at="2022-11-15T17:22:35 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.supermarket.tests.LoginTestCase@7098b907]" started-at="2022-11-15T17:22:39 GST" name="afterSuite" finished-at="2022-11-15T17:22:39 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.supermarket.tests.LoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
